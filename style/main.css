@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(18, 18, 87);
+    color: rgb(160, 160, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5%;
+}
+
+a{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    color:rgb(221, 221, 255);
+}
+
+i{
+    font-family: "Times New Roman", Times, serif;
+}
+
+input[type=text], input[type=password] {
+    width: 200px;
+    height: 30px;
+    padding: 8px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: rgb(160, 160, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(18, 18, 87);
+    border-color: rgb(50, 50, 180);
+}
+
+input[type=submit]{
+    width: 90px;
+    height: 30px;
+    background: rgb(160, 160, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(18, 18, 87);
+    display: contentss;
+    border-radius: 0%;
+    border-color: rgb(50, 50, 180);
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    padding: 8px 8px;
+    margin: 8px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgb(160, 160, 240);
+    color:rgb(18, 18, 87);
+    border-color: rgb(50, 50, 180);
+
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(160, 160, 240, 0.0), rgba(160, 160, 240, 0.66), rgba(160, 160, 240, 0));
+}
+
+.navbarData{
+    margin-left: 2px;
+    margin-right: 2px;
+    display: block;
+    background-color: rgb(50, 50, 180);
+    font-size: 20px;
+}
+
+.navbarLink{
+    margin-left: 6px;
+    margin-right: 6px;
+    display: block;
+    text-decoration: none;
+}
